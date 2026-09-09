@@ -1,0 +1,14 @@
+{
+  "name": "stellar-secret-decoder",
+  "version": "1.0.0",
+  "description": "Offline Stellar Ed25519 keypair derivation from a BIP39 mnemonic",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "stellar-hd-wallet": "^1.0.2"
+  }
+}
